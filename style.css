@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#weather {
+  width: 30%;
+  margin: 5em auto;
+  padding: 2em;
+  text-align: center;
+  box-shadow: 5px 5px 10px 0px grey;
+}
+#inputBox {
+  margin-top: 1em;
+  width: 60%;
+  padding: 0.3em;
+}
+#searchbtn {
+  margin-top: 1em;
+  width: 20%;
+  padding: 0.4em;
+  background-color: rgb(89, 89, 228);
+  color: white;
+  border-style: none;
+}
