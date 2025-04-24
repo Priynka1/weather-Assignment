@@ -24,9 +24,9 @@ searchbtn.addEventListener("click", () => {
   city.value = "";
 
   const result = document.getElementById("result");
+  const data = weatherData[inputCity];
 
-  if (inputCity) {
-    const data = weatherData[inputCity];
+  if (data) {
     result.innerHTML = `
       <h3> ${inputCity.toUpperCase()}</h3>
       <p> ${data.temp} °C</p>
