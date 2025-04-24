@@ -20,7 +20,7 @@ const weatherData = {
 const searchbtn = document.querySelector("#searchbtn");
 searchbtn.addEventListener("click", () => {
   const city = document.getElementById("inputBox");
-  const inputCity = city.value;
+  const inputCity = city.value.toLowerCase();
   city.value = "";
 
   const result = document.getElementById("result");
