@@ -35,6 +35,7 @@ searchbtn.addEventListener("click", () => {
       
     `;
   } else {
-    result.innerHTML = `<p>Weather data  not found.</p>`;
+    alert(" Please enter a valid state.");
+    // result.innerHTML = `<p>Weather data  not found.</p>`;
   }
 });
