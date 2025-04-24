@@ -35,6 +35,6 @@ searchbtn.addEventListener("click", () => {
       
     `;
   } else {
-    result.innerHTML = `<p>Weather data for "${inputCity.value}" not found.</p>`;
+    result.innerHTML = `<p>Weather data  not found.</p>`;
   }
 });
